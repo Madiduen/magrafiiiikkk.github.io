@@ -1,51 +1,286 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title> MaGrafik | Forside </title>
-<link href="css/produkter.css" rel="stylesheet"/>
-<link href="css/style.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-" >
+    <title>MaGrafik</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<header>
-<nav>
-<h1> MaGrafik | Forside </h1> 
-<ul>
-<li><a href="Forside.html" style="background-color: #4b647b; width: 105%; max-width:1920px; min-width:480px; height:200px; margin-left: -8px; overflow: hidden;">Forside</a></li>
-<li><a href="#"style="background-color: #4b647b; width: 105%; max-width:1920px; min-width:480px; height:200px; margin-left: -8px; overflow: hidden;">Om mig</a></li>
-<li><a href="produkter.html" style="background-color: #4b647b; width: 105%; max-width:1920px; min-width:480px; height:200px; margin-left: -8px; overflow: hidden;">Produkter</a></li>
-<li><a href="#"style="background-color: #4b647b; width: 105%; max-width:1920px; min-width:480px; height:200px; margin-left: -8px; overflow: hidden;">Billeder</a></li>
-<li><a href="kontakt.html"style="background-color: #4b647b; width: 105%; max-width:1920px; min-width:480px; height:200px; margin-left: -8px; overflow: hidden;">Kontakt</a></li>
-</ul>
-</nav>
-</header>
 
-      <h1>Hej og velkommen til MaGrafik! <p> Husk FULDSKÆRM! </p></h1>      
-            <p>
-                <div class="forside2">Her kan du finde alt fra gta5 biler/tøj som er reskinnet! Til awesome grafik til dine tjenester!  Vi har en masse erfaring, så du kontakter os bare hvis der er noget, du ønsker
-                    som ikke er på hjemmesiden! 
-    </p>
-</ul>
-</nav>
+
+
+<div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+             <li><a href="forside.html">Forside</a></li>
+             <li><a href="produkter.html">Produkter</a></li>
+             <li><a href="">Om MaGrafik</a></li>
+             <li><a href="kontakt.html">Kontakt os</a></li>
+             <li><a href="">Bruger</a></li>
+            </ul>
+        </nav>
+        <img src="img/cart.png" width="30px" height="30px">
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>MaGrafik er Kvalitet!</h1>
+            <p>Vi sælger alt fra gta5 biler/tøj til awesome grafik! til jeres tjenester :)</p>
+           <a href="produkter.html" class="btn">Udforsk nu! &#8594</a>
+        </div>
+        <div class="col-2">
+            <img src="img/image1.png" alt="">
+        </div>
+        </div>
+    </div>
 </div>
-    
-<div class="forside5">Vi bruger programmer som photoshop, paint.net, html, css, Visual Studio Code, og Adobe After Effects! Så i kan forvente KVALITET! </div>
+</div>
+<!-------- featured categories ------------>
 
-    <div class="forside4"><img src="img/Banner.png" alt="centered image"></br></p></div>
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="img/category-1.jpg" >
+            </div>
+    
+            <div class="col-3">
+                <img src="img/category-2.jpg" >
+            </div>
+            <div class="col-3">
+                <img src="img/category-3.jpg" >
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-------- featured Products ------------>
 
-    
-    
-    
-    
-    
-    
-    
-    <footer>
-        <li id="here" href="#"></li>
-    <lil><a href="teaser.html">Hvor kan man se teasers af hvad MaGrafik laver?</a><div>⤷ Tryk på Teksten ovenover</div></lil>
-    <lil><a href="kontakt.html">Hvordan får man fat i mig?</a><div>⤷ Tryk på Teksten ovenover</div></lil>
-    <lil><a href="køb.html">Hvordan køber man?</a><div>⤷ Tryk på Teksten ovenover</div></lil>
-    <li id="here" href="#"></li>
-    <footer> Lavet af Madiduen graphics © | Denmark </footer>
-    </body>
-    </html>
+<div class="small-container">
+    <h2 class="title">Udvalgte produkter</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="img/product-1.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-2.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+    </div>
+     <h2 class="title">Seneste Produkter</h2>
+     <div class="row">
+        <div class="col-4">
+            <img src="img/product-4.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-5.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-6.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+    </div>
+</div>
+<!------ offer -------->
 
-    
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+             <p>Eksklusive produkter</p>
+             <h1>Tekst </h1>
+             <small>Tekst</small>
+             <a href="" class="btn">Køb nu! &#8594</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!----------- IDK --------->
+
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Jeg ved ikke hvad jeg skal skrive her</p>
+                   <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            <img src="img/user-1.png">
+        <h3>Sean Parker</h3>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Jeg ved ikke hvad jeg skal skrive her</p>
+               <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        <img src="img/user-2.png">
+    <h3>Sean Parker</h3>
+    </div>
+    <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Jeg ved ikke hvad jeg skal skrive her</p>
+           <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+    <img src="img/user-3.png">
+          <h3>Sean Parker</h3>
+        </div>
+    </div>
+</div>
+
+<!--------------brands-->
+
+<div class="brands">
+    <div class="smallcontainer">
+        <div class="row">
+            <div class="col-5">
+                <img src="img/logo-godrej.png">
+            </div>
+            <div class="col-5">
+                <img src="img/logo-oppo.png">
+            </div>
+            <div class="col-5">
+                <img src="img/logo-coca-cola.png">
+            </div>
+            <div class="col-5">
+                <img src="img/logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="img/logo-philips.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Kig forbi på discord!</h3>
+                <p>Download</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png">
+                    <img src="img/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo-white.png">
+                <p>Download</p>
+        </div>
+        <div class="footer-col-3">
+            <h3> Gode links :</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Coupons</li>
+                <li>Coupons</li>
+                <li>Coupons</li>
+            </ul>
+            <div class="footer-col-4">
+                <h3> Følg os</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>discord</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            <hr> 
+            <p class="copyright">Copyright 2020 - Madiduen Graphics</p>
+        </div>
+       
+        <script>
+          var MenuItems = document.getElementById("MenuItems");
+
+          MenuItems.style.maxHeight = "0px";
+
+          function menutoggle(){
+              if(MenuItems.style.maxHeight == "0px")
+          {
+            MenuItems.style.maxHeight = "200px";
+          }
+          else
+          {
+            MenuItems.style.maxHeight = "0px";
+          }
+ }
+</script>
+
+
+</body>
+</html>

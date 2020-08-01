@@ -1,40 +1,250 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title> Madiduen | Produkter </title>
-<link href="css/produkter.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaGrafik | Produkter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-<header>
-<nav>
-<h1> Madiduen | Produkter </h1>
-<ul>
-<li><a href="Forside.html">Forside</a></li>
-<li><a href="#">Om mig</a></li>
-<li><a href="Produkter.html">Produkter</a></li>
-<li><a href="#">Billeder</a></li>
-<li><a href="#">Kontakt os</a></li>
-</ul>
-</nav>
-</header>
 
-<h2>Produkt 10 | </h2>
-<h2>Produkt 11 | </h2>
-<h2>Produkt 12 | </h2>
-<h2>Produkt 13 | </h2>
-<h2>Produkt 14 | </h2>
-<h2>Produkt 15 | </h2>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+             <li><a href="forside.html">Forside</a></li>
+             <li><a href="produkter.html">Produkter</a></li>
+             <li><a href="">Om MaGrafik</a></li>
+             <li><a href="kontakt.html">Kontakt</a></li>
+             <li><a href="">Bruger</a></li>
+            </ul>
+        </nav>
+        <img src="img/cart.png" width="30px" height="30px">
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<!-------- featured Products ------------>
+
+<div class="small-container">
+
+<div class="row row-2">
+    <h2>Alle Produkter</h2>
+    <select>
+        <option>Normal</option>
+        <option>Sorter efter pris</option>
+        <option>Sorter efter mest populære</option>
+        <option>Sorter efter mest stjerner</option>
+        <option>Sorter efter meste solgte</option>
+    </select>
+</div>
+
+    <div class="row">
+        <div class="col-4">
+            <img src="img/product-1.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-2.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="row">
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product-3.jpg">
+            <h4>Vanilla politi bil-Pakke!</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <p>100,-</p>
+        </div>
+        </div>
+    </div>
+
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Kig forbi på discord!</h3>
+                <p>Kan fåes på både ios og Android, også Windows og Mac!</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png">
+                    <img src="img/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo-white.png">
+                <p></p>
+        </div>
+        <div class="footer-col-3">
+            <h3> Gode links :</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Coupons</li>
+                <li>Coupons</li>
+                <li>Coupons</li>
+            </ul>
+            <div class="footer-col-4">
+                <h3> Følg os</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>discord</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            <hr> 
+            <p class="copyright">Copyright 2020 - Madiduen Graphics</p>
+        </div>
+       
+        <script>
+          var MenuItems = document.getElementById("MenuItems");
+
+          MenuItems.style.maxHeight = "0px";
+
+          function menutoggle(){
+              if(MenuItems.style.maxHeight == "0px")
+          {
+            MenuItems.style.maxHeight = "200px";
+          }
+          else
+          {
+            MenuItems.style.maxHeight = "0px";
+          }
+ }
+</script>
 
 
-<h3> side 1</a> ud af <a href="Produkter2.html"> 2 </h3></a>
-
-
-<footer>
-	<li id="here" href="#"></li>
-<lil><a href="teaser.html">Hvor kan man se teasers af hvad Madiduen laver?</a><div>⤷ Tryk på Teksten ovenover</div></lil>
-<lil><a href="kontakt.html">Hvordan får man fat i mig?</a><div>⤷ Tryk på Teksten ovenover</div></lil>
-<lil><a href="køb.html">Hvordan køber man?</a><div>⤷ Tryk på Teksten ovenover</div></lil>
-<li id="here" href="#"></li>
-<footer> Lavet af Madiduen graphics © | Denmark </footer>
 </body>
 </html>
