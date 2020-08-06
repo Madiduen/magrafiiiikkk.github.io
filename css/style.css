@@ -311,7 +311,7 @@ ul{
     }
 
     nav ul li a{
-        color: #fff;
+        color: #22567e;
     }
     .menu-icon {
         display: block;
@@ -341,6 +341,7 @@ select:focus{
 .page-btn span {
     display: inline-block;
     border: 1px solid #22567e;
+    border-radius: 10px;
     margin-left: 10px;
     width: 40px;
     height: 40px;
@@ -352,7 +353,7 @@ select:focus{
 .page-btn span:hover {
     background: #22567e;
     color: white;
-
+}
 
 @media only screen and (max-width: 600px){
     .row {
@@ -365,3 +366,166 @@ select:focus{
 
 
 
+.single-product{
+    margin-top: 80px;
+}
+
+.single-product .col-2 img{
+    padding: 0;
+}
+
+.single-product .col-2 {
+    padding: 20px;
+}
+
+.single-product h4 {
+   margin: 20px 0;
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.single-product select{
+    display: block;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #22567e;
+}
+
+input:focus{
+    outline: none;
+}
+
+.small-img-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+
+}
+
+.single-product .row {
+    flex-basis: 100%;
+}
+
+
+.cart-page {
+    margin: 80px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: #22567e;
+    font-weight: normal;
+}
+
+td{
+    padding: 10px 5px;
+    
+}
+
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a{
+    color: #22567e;
+    font-size: 12px;
+}
+
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid #22567e;
+    width: 100%;
+    max-width: 350px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.products-container{
+     max-width: 650px;
+     justify-content: space-around;
+     margin: 0 auto;
+     margin-top: 50px;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #22567e;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid #22567e;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10px;
+    border-bottom: 1px solid #22567e;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 10px 0;
+border-bottom: 1px solid #22567e;
+}

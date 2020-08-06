@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaGrafik | Produkter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+             <li><a href="forside.html">Forside</a></li>
+             <li><a href="produkter.html">Produkter</a></li>
+             <li><a href="">Om MaGrafik</a></li>
+             <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <img src="img/cart.png" width="30px" height="30px">
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<!--------cart items details------->
+
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Produkter</th>
+            <th>Antal</th>
+            <th>Pris</th>
+        </tr>
+        <tr>
+            <td>
+              <div class="cart-info">
+                  <img src="img/buy-1.jpg">
+              <div>
+                  <p> Vanilla Bil-pakke</p>
+                  <small>Pris: 100 ,-</small>
+                  <br>
+                  <a href="">Fjern fra kurv</a>
+              </div>
+              
+              
+                </div>
+
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>100 ,-</td>
+        </tr>
+        <tr>
+            <td>
+              <div class="cart-info">
+                  <img src="img/buy-2.jpg">
+              <div>
+                  <p> Vanilla Bil-pakke</p>
+                  <small>Pris: 100 ,-</small>
+                  <br>
+                  <a href="">Fjern fra kurv</a>
+              </div>
+              
+              
+                </div>
+
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>100 ,-</td>
+        </tr>
+        <tr>
+            <td>
+              <div class="cart-info">
+                  <img src="img/buy-3.jpg">
+              <div>
+                  <p> Vanilla Bil-pakke</p>
+                  <small>Pris: 100 ,-</small>
+                  <br>
+                  <a href="">Fjern fra kurv</a>
+              </div>
+              
+              
+                </div>
+
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>100 ,-</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+
+      <table>
+          <tr>
+              <td>Pris ialt</td>
+              <td>300 ,-</td>
+          </tr>
+      </table>
+
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Kig forbi på discord!</h3>
+                <p>Kan fåes på både ios og Android, også Windows og Mac!</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png">
+                    <img src="img/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo-white.png">
+                <p></p>
+        </div>
+        <div class="footer-col-3">
+            <h3> Gode links :</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Coupons</li>
+                <li>Coupons</li>
+                <li>Coupons</li>
+            </ul>
+            <div class="footer-col-4">
+                <h3> Følg os</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>discord</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            <hr> 
+            <p class="copyright">Copyright 2020 - Madiduen Graphics</p>
+        </div>
+       
+        <script>
+          var MenuItems = document.getElementById("MenuItems");
+
+          MenuItems.style.maxHeight = "0px";
+
+          function menutoggle(){
+              if(MenuItems.style.maxHeight == "0px")
+          {
+            MenuItems.style.maxHeight = "200px";
+          }
+          else
+          {
+            MenuItems.style.maxHeight = "0px";
+          }
+ }
+</script>
+</body>
+</html>
